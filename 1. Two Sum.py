@@ -10,9 +10,6 @@ class Solution(object):
                 if x != y:
                     if nums[x] + nums[y] == target:
                         return [x,y]
-                        
-    
-                
         
     def twoSum(self, nums, target):
         if len(nums) <= 1:
@@ -23,9 +20,10 @@ class Solution(object):
                 return([comp[nums[x]], x])
             else:
                 comp[(target - nums[x])] = x
-            
- 
+
+
+###########################
 
 test = Solution()
-#print(test.twoSum([2,7,11,15], 9))
+print(test.twoSum([2,7,11,15], 9))
 print(test.twoSum([3,2,4],6))
