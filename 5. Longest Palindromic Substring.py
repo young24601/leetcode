@@ -23,6 +23,7 @@ class Solution(object):
         :type s: str
         :rtype: str
         """
+<<<<<<< HEAD
         # Naive way would be to go to each character and try to go left and right from it
         # for as long as it remains a palindrome.
 
