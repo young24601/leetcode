@@ -18,6 +18,9 @@ Output: "bb"
 
 
 class Solution(object):
+=======
+class Solution:
+>>>>>>> 67291be32a731536a923f41b479ced511d872757
     def longestPalindrome(self, s):
         """
         :type s: str
@@ -91,3 +94,21 @@ assert sol == "bqxzzxqb" or sol == ""
 #sol = t.longestPalindrome(i)
 #assert sol == "bb" or sol == ""
  
+=======
+        
+        if len(s) <= 1:
+            return s
+        for letter in s:
+            print(letter)
+        
+        
+        
+
+
+test = Solution()
+print(test.longestPalindrome('babad')) #bab
+#print(test.longestPalindrome('cbbd')) #bb
+#print(test.longestPalindrome('asdfeasdabbaasdfeadf')) #abba
+#print(test.longestPalindrome('a'))
+#print(test.longestPalindrome('aa'))
+>>>>>>> 67291be32a731536a923f41b479ced511d872757
