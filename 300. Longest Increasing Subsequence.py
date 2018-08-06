@@ -52,12 +52,20 @@ def lengthOfLIS2(nums):
 
     print(arr)
     
+# I think this is the best one...
+# use bisection to find and place in log n time and place them into a list. 
+# note that whenever you place a number into at the end of the list, you have increased the subsequence so increment l
+# whenever you find a lower number, you place that lower number at the relevant location on
+# the list.  if you are able to add more to the subsequence, then i will eventually become l and you can increment l.
+# If there aren't enough to add, or if the sequence can continue by ignoring the value such as "ignoring 4" in (1,2,5,10,4,11,12)
+# then your sequence is able to continue and the insertion of 4 into the list is irrelevant since you still have 10 at the "last" position
+# which is what matters.
 def lengthOfLIS3(nums):
     dp = [0]*len(nums)
     l = 0
     for num in nums:
         print("num =", num)
-        i = bisect.bisect_left(dp, num, 0, l)
+        i = bisect.bisect_left(dp, num, 0, l) #bisect_left(a, x, low, high).  Finds location for x in a to maintain sorted order.  low/high specifies subset of the list
         print("i =", i)
         dp[i] = num
         print("dp[",i,"] =", num)
@@ -72,3 +80,5 @@ print("==================================")
 print(lengthOfLIS3([4,10,4,3,8,9]))
 print("==================================")
 print(lengthOfLIS3([10,9,2,5,3,7,101,18]))
+print("==================================")
+print(lengthOfLIS3([1,2,5,10,4,6,7,11]))
