@@ -34,12 +34,45 @@ class Solution(object):
         :type postorder: List[int]
         :rtype: TreeNode
         """
+        # last item of postorder is the root.  you can break up the inorder by postorder to get the left/right sides
         
+        if len(inorder) == 0 or len(postorder) == 0:
+            return None
+
+        root = TreeNode(postorder.pop())
+ 
+        #get the index of the root value
+        i = inorder.index(root.val)
+        #break up left side using the index
+        leftSideInorder = inorder[0:i]
+        leftSidePostorder = postorder[0:i]
+        #and right side using the index.  note you need the +1 for inorder to ignore the root value but in postorder it's already gone
+        rightSideInorder = inorder[inorder.index(root.val)+1:]
+        rightSidePostorder = postorder[i:]
+        #recurse left/right 
+        root.left = self.buildTree(leftSideInorder, leftSidePostorder)
+        root.right = self.buildTree(rightSideInorder, rightSidePostorder)
+        return root
+
         
+import queue        
+def bfs(root):
+    L = queue.Queue()
+    
+    while root != None:
+        print(root.val,end=',')
+        if root.left != None:
+            L.put(root.left)
+        if root.right != None:
+            L.put(root.right)
         
+        if L.empty():
+            return
+        else:
+            root = L.get()
         
 test = Solution()
 inorder = [9,3,15,20,7]
 postorder = [9,15,7,20,3]
-test.buildTree(inorder, postorder)
-
+result = test.buildTree(inorder, postorder)
+bfs(result)

@@ -21,9 +21,20 @@ class Solution(object):
             else:
                 comp[(target - nums[x])] = x
 
-
+    #this one returns the actual values and multiple solutions
+    def twoSum2(self, nums, target):
+        if len(nums) <= 1:
+            return False
+        comp = {}
+        res = []
+        for x in range(len(nums)):
+            if (nums[x]) in comp:
+                res.append([nums[comp[nums[x]]], nums[x], target])
+            else:
+                comp[(target - nums[x])] = x
+        return(res)
 ###########################
 
 test = Solution()
-print(test.twoSum([2,7,11,15], 9))
-print(test.twoSum([3,2,4],6))
+print(test.twoSum2([2,7,11,15], 9))
+print(test.twoSum2([3,2,4,1,5],6))
