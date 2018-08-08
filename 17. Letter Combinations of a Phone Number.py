@@ -32,7 +32,10 @@ class Solution:
 
 
 
-
+def zzz(x,y):
+    for i in x:
+        for j in y:
+            [i+j]
 
 s = Solution()
 print(s.letterCombinations('3'))
