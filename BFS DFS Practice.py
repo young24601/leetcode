@@ -9,6 +9,8 @@ class Node:
         self.data = value
         self.right = None
 
+    def __repr__(self):
+        return str(self.val)
 
 def dfs(root):
     print(root.data,end=',')
@@ -19,20 +21,20 @@ def dfs(root):
 
 def bfs(root):
     L = queue.Queue()
-    
+
     while root != None:
         print(root.data,end=',')
         if root.left != None:
             L.put(root.left)
         if root.right != None:
             L.put(root.right)
-        
+
         if L.empty():
             return
         else:
             root = L.get()
-            
-    
+
+
 if __name__ == "__main__":
     nodeF = Node("F")
     nodeD = Node("D")
@@ -45,7 +47,7 @@ if __name__ == "__main__":
     nodeC = Node("C")
     nodeI = Node("I")
     nodeH = Node("H")
-    
+
     nodeF.left = nodeD
     nodeF.right = nodeJ
     nodeD.left = nodeB
@@ -60,4 +62,3 @@ if __name__ == "__main__":
     dfs(nodeF)
     print()
     bfs(nodeF)
-    
