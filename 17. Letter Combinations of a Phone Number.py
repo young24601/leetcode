@@ -20,6 +20,7 @@ class Solution:
 
         #first construct the compositions of each letter into a list
         letters = [mapping[i] for i in digits]
+        print("letters:", letters)
         if digits:
             if len(digits) == 1:
                 return mapping[digits]
@@ -40,6 +41,7 @@ def zzz(x,y):
 s = Solution()
 print(s.letterCombinations('3'))
 print(s.letterCombinations('23'))
+print(s.letterCombinations('234'))
 
 
 test = [1,2,3,4,5]

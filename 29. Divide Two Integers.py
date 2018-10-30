@@ -15,7 +15,12 @@ class Solution:
         """
         # naive subtraction solution was way too slow, so try to implement
         # bitwise operations to solve the problem.
-        # We can do "long division"
+
+        # recall that x << y shifts x to the left y places (same as multiplying x by 2**y)
+        # recall that x >> y shifts x to the right y places (same as dividing x by 2**y)
+
+        print
+
 
 
 
