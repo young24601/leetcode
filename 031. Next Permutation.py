@@ -11,7 +11,6 @@
 # 3,2,1 -> 1,2,3
 # 1,1,5 -> 1,5,1
 
-
 class Solution:
     def nextPermutation(self, nums):
         """
@@ -43,9 +42,23 @@ class Solution:
             #print(nums)
             #print("sorting", k+1, "to", n)
             nums[k+1:] = nums[k+1:][::-1]
+
+        print(nums)
+        #print("--------------")
     
 s = Solution()
 
 input1 = [1,2,3]
 s.nextPermutation(input1)
 
+
+s = Solution()
+a1 = [1,2,3,4]
+print(a1)
+for ct in range(0, 24):
+    s.nextPermutation(a1)
+
+
+print("--------------")
+print([1,2,4,3])
+s.nextPermutation([1,2,4,3])
