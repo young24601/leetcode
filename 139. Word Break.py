@@ -27,13 +27,14 @@ class Solution:
         # break up each iteration of the words into pieces of all sizes
 
         if s == "":
-            return true
+            return True
         else:
             for ct in range(len(s)):
-                return 
+                return
 
 
         return 0
+
 
 s = Solution()
 assert True == s.wordBreak("leetcode", wordDict = ["leet", "code"])
