@@ -5,6 +5,11 @@ Balancing work life, the two kids and wife, and my health will be tricky but I c
 
 Testing out my first commit from Atom!
 
+https://leetcode.com/discuss/interview-question/311420/google-phone-screen-sum-of-leaf-nodes-in-an-n-ary-tree
+https://leetcode.com/discuss/interview-experience/310641/google-interview-onsite-silicon-valley-reject
+https://leetcode.com/discuss/interview-question/311490/amazon-phone-interview
+
+
 Priority list:<br />
 [ ] 4<br />
 [x] 10<br />
