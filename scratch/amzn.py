@@ -6,6 +6,7 @@
 # 0 3 2 0 7 => from left (here for number 1 since 2 and 3 are both greater, we pick the closest viz. 2)
 # 7 7 7 0 0 => from right
 # 7 4 5 0 7 => difference
+import queue
 
 class Node():
     def __init__(self, val, left, right, next):
@@ -34,7 +35,18 @@ def question_one():
         curr = list(stream_valid)[0]
         print("Current", curr)
 
-def question_two(head):
+
+
+
+def question_two(root):
+    head = root
+    while root and root.left:
+        next = root.left
+        while root:
+            root.left.next = root.right
+            root.right.next = root.next and root.next.left
+            root = root.next
+        root = next
     return(head)
 
 node4 = Node("4", None, None, None)
@@ -45,4 +57,11 @@ node7 = Node("7", None, None, None)
 node3 = Node("3", node6, node7, None)
 node1 = Node("1", node2, node3, None)
 
-print(question_two(node1))
+q2 = question_two(node1)
+
+# Given two arrays containing numbers, find the difference of closest greatest of each number from left and right ?
+# 3 2 1 7 5
+# 0 3 2 0 7 => from left (here for number 1 since 2 and 3 are both greater, we pick the closest viz. 2)
+# 7 7 7 0 0 => from right
+# 7 4 5 0 7 => difference
+def question_three():
