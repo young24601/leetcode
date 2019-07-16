@@ -15,19 +15,20 @@ def sum_of_leaves(root):
     if len(root.children) == 0:
         return root.val
     sum = 0
-    while root and len(root.children) > 0:
+
+    while root:
         print("at node " + str(root.val))
         next = root.children[0]
         ct = 0
-        while root and ct < len(root.children) - 1:
+        while root:
             print("ct: " + str(ct) + "(" + str(root.children[ct].val) + "," + str(root.children[ct+1].val) + ")")
             if len(root.children[ct].children) == 0:
                 sum += root.val
             root.children[ct].next = root.children[ct+1]
+            root.children[ct+1].next = root.next and root.next.children[0]
+            root = root.next
             ct += 1
-
         root = next
-
     return 0
 
 n8 = Node(8)
