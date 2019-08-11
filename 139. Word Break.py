@@ -26,14 +26,19 @@ class Solution:
     def wordBreak(self, s: str, wordDict: List[str]) -> bool:
         # break up each iteration of the words into pieces of all sizes
 
+        has_path = [False] * (len(s) + 1)
         if s == "":
             return True
         else:
-            for ct in range(len(s)):
-                return
-
-
-        return 0
+            has_path[0] = True # there is a path to the first element
+            for i in range(1, len(s)+1): # iterate through each letter
+                for j in range(0, i):
+                    #print(f"Checking {s[j:i]}")
+                    if has_path[j] and s[j:i] in wordDict:
+                        #print(f"Setting has_path[{i}] to True")
+                        has_path[i] = True
+                        break
+        return has_path[-1]
 
 
 s = Solution()
