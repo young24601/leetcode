@@ -10,18 +10,18 @@ import time
 import random
 import threading
 
-#
-# def f1(b):
-#     time.sleep(random.randint(2, 10))
-#     print("{} woke at: {}".format(threading.current_thread().getName(), time.ctime()))
-#     b.wait()
-#     print("{} passed the barrier at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#
-#
-# barrier = threading.Barrier(3)
-# for i in range(3):
-#     t = threading.Thread(target=f1, args=(barrier,))
-#     t.start()
+
+def f1(b):
+    time.sleep(random.randint(2, 10))
+    print("{} woke at: {}".format(threading.current_thread().getName(), time.ctime()))
+    b.wait()
+    print("{} passed the barrier at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+
+
+barrier = threading.Barrier(3)
+for i in range(3):
+    t = threading.Thread(target=f1, args=(barrier,))
+    t.start()
 
 
 # Thread-2 woke at: Sun May 20 11:59:16 2018
@@ -31,69 +31,69 @@ import threading
 # Thread-2 passed the barrier at: Sun May 20 11:59:22 2018
 # Thread-3 passed the barrier at: Sun May 20 11:59:22 2018
 
-#
-# def f2a():
-#     time.sleep(random.randint(5, 7))
-#     locks[0].release()
-#     print("{} passed the lockA at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#
-#
-# def f2b():
-#     with locks[0]:
-#         time.sleep(random.randint(2, 5))
-#         print("{} passed the lockB at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#         locks[1].release()
-#
-#
-# def f2c():
-#     with locks[1]:
-#         time.sleep(random.randint(1, 3))
-#         print("{} passed the lockC at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#
-#
-# locks = (threading.Lock(), threading.Lock(), threading.Lock())
-#
-# locks[0].acquire()
-# locks[1].acquire()
-# locks[2].acquire()
-# t1 = threading.Thread(target=f2a)
-# t1.start()
-# t2 = threading.Thread(target=f2b)
-# t2.start()
-# t3 = threading.Thread(target=f2c)
-# t3.start()
+
+def f2a():
+    time.sleep(random.randint(5, 7))
+    locks[0].release()
+    print("{} passed the lockA at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+
+
+def f2b():
+    with locks[0]:
+        time.sleep(random.randint(2, 5))
+        print("{} passed the lockB at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+        locks[1].release()
+
+
+def f2c():
+    with locks[1]:
+        time.sleep(random.randint(1, 3))
+        print("{} passed the lockC at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+
+
+locks = (threading.Lock(), threading.Lock(), threading.Lock())
+
+locks[0].acquire()
+locks[1].acquire()
+locks[2].acquire()
+t1 = threading.Thread(target=f2a)
+t1.start()
+t2 = threading.Thread(target=f2b)
+t2.start()
+t3 = threading.Thread(target=f2c)
+t3.start()
 
 # Thread-1 passed the lockA at: Fri Aug  9 21:07:20 2019
 # Thread-2 passed the lockB at: Fri Aug  9 21:07:22 2019
 # Thread-3 passed the lockC at: Fri Aug  9 21:07:25 2019
 
-#
-# def f3a():
-#     time.sleep(random.randint(5, 7))
-#     print("{} passed the eventA at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#     events[0].set()
-#
-#
-# def f3b():
-#     events[0].wait()
-#     time.sleep(random.randint(2, 5))
-#     print("{} passed the eventB at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#     events[1].set()
-#
-#
-# def f3c():
-#     events[1].wait()
-#     time.sleep(random.randint(1, 3))
-#     print("{} passed the eventC at: {}\n".format(threading.current_thread().getName(), time.ctime()))
-#
-#
-# events = (threading.Event(), threading.Event())
-# t1 = threading.Thread(target=f3c)
-# t1.start()
-# t2 = threading.Thread(target=f3b)
-# t2.start()
-# t3 = threading.Thread(target=f3a)
-# t3.start()
+
+def f3a():
+    time.sleep(random.randint(5, 7))
+    print("{} passed the eventA at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+    events[0].set()
+
+
+def f3b():
+    events[0].wait()
+    time.sleep(random.randint(2, 5))
+    print("{} passed the eventB at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+    events[1].set()
+
+
+def f3c():
+    events[1].wait()
+    time.sleep(random.randint(1, 3))
+    print("{} passed the eventC at: {}\n".format(threading.current_thread().getName(), time.ctime()))
+
+
+events = (threading.Event(), threading.Event())
+t1 = threading.Thread(target=f3c)
+t1.start()
+t2 = threading.Thread(target=f3b)
+t2.start()
+t3 = threading.Thread(target=f3a)
+t3.start()
 
 # Thread-3 passed the lockA at: Fri Aug  9 22:21:16 2019
 # Thread-2 passed the lockB at: Fri Aug  9 22:21:21 2019
