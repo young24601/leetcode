@@ -113,7 +113,7 @@ def f4a():
         print("{} passed the eventA at: {}\n".format(threading.current_thread().getName(), time.ctime()))
         global order_value
         order_value = 1
-        condition.notify(2)
+        condition.notify(2)  # this wakes 2 threads waiting on the condition
         print("{} passed the eventA-2 at: {}\n".format(threading.current_thread().getName(), time.ctime()))
 
 
