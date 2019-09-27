@@ -1,5 +1,6 @@
 import collections
 
+
 class LRUCache:
     def __init__(self, capacity):
         """
@@ -19,8 +20,6 @@ class LRUCache:
             return self.cache[key]
         else:
             return -1
-        
-
 
     def put(self, key, value):
         """
@@ -33,13 +32,13 @@ class LRUCache:
             self.cache[key] = value
         else:
             if len(self.cache) >= self.capacity:
-                #remove LRU
+                # remove LRU
                 self.cache.popitem(False)
             self.cache[key] = value
-        
 
 # Your LRUCache object will be instantiated and called as such:
-#capacity = 2
+# capacity = 2
+
 
 obj = LRUCache(2)
 # param_1 = obj.get(key)
@@ -64,14 +63,12 @@ obj = LRUCache(2)
 # obj.get(3)
 # obj.get(4)
 
-obj.put(2,1)
-obj.put(1,1)
-obj.put(2,3)
-obj.put(4,1)
+obj.put(2, 1)
+obj.put(1, 1)
+obj.put(2, 3)
+obj.put(4, 1)
 obj.get(1)
 obj.get(2)
 
-
-
-#find the first unique word from a keep coming string list
-#system design question is to set users's preference and make it scable to consistent
+# find the first unique word from a keep coming string list
+# system design question is to set users's preference and make it scable to consistent
