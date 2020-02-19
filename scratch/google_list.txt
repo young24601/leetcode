@@ -1,0 +1,686 @@
+1165
+Single-Row Keyboard
+84.6%	Easy
+1281
+Subtract the Product and Sum of Digits of an Integer	84.5%	Easy
+977
+Squares of a Sorted Array	72.2%	Easy
+852
+Peak Index in a Mountain Array	70.9%	Easy
+346
+Moving Average from Data Stream
+69.0%	Easy
+359
+Logger Rate Limiter
+68.6%	Easy
+1051
+Height Checker	68.5%	Easy
+1122
+Relative Sort Array	67.3%	Easy
+821
+Shortest Distance to a Character	65.6%	Easy
+104
+Maximum Depth of Binary Tree	63.9%	Easy
+136
+Single Number	62.9%	Easy
+226
+Invert Binary Tree	61.6%	Easy
+412
+Fizz Buzz	61.1%	Easy
+206
+Reverse Linked List	59.5%	Easy
+349
+Intersection of Two Arrays	59.3%	Easy
+706
+Design HashMap	58.8%	Easy
+1170
+Compare Strings by Frequency of the Smallest Character	58.4%	Easy
+705
+Design HashSet	58.2%	Easy
+283
+Move Zeroes	56.2%	Easy
+169
+Majority Element	55.8%	Easy
+242
+Valid Anagram	55.1%	Easy
+122
+Best Time to Buy and Sell Stock II	54.3%	Easy
+389
+Find the Difference	54.3%	Easy
+167
+Two Sum II - Input array is sorted	52.6%	Easy
+21
+Merge Two Sorted Lists	51.2%	Easy
+1056
+Confusing Number
+50.2%	Easy
+118
+Pascal's Triangle	50.0%	Easy
+121
+Best Time to Buy and Sell Stock	49.3%	Easy
+202
+Happy Number	48.5%	Easy
+543
+Diameter of Binary Tree	48.2%	Easy
+392
+Is Subsequence	47.9%	Easy
+844
+Backspace String Compare	47.2%	Easy
+720
+Longest Word in Dictionary	47.0%	Easy
+9
+Palindrome Number	46.6%	Easy
+551
+Student Attendance Record I	46.4%	Easy
+70
+Climbing Stairs	46.1%	Easy
+53
+Maximum Subarray	45.6%	Easy
+1
+Two Sum	45.1%	Easy
+925
+Long Pressed Name	44.8%	Easy
+246
+Strobogrammatic Number
+44.0%	Easy
+572
+Subtree of Another Tree	43.7%	Easy
+38
+Count and Say	43.0%	Easy
+724
+Find Pivot Index	42.8%	Easy
+231
+Power of Two	42.8%	Easy
+482
+License Key Formatting	42.6%	Easy
+110
+Balanced Binary Tree	42.5%	Easy
+67
+Add Binary	42.2%	Easy
+849
+Maximize Distance to Closest Person	42.1%	Easy
+66
+Plus One	41.9%	Easy
+734
+Sentence Similarity
+41.6%	Easy
+198
+House Robber	41.6%	Easy
+299
+Bulls and Cows	41.4%	Easy
+459
+Repeated Substring Pattern	41.4%	Easy
+35
+Search Insert Position	41.4%	Easy
+374
+Guess Number Higher or Lower	41.4%	Easy
+443
+String Compression	39.8%	Easy
+205
+Isomorphic Strings	39.0%	Easy
+88
+Merge Sorted Array	38.1%	Easy
+20
+Valid Parentheses	38.0%	Easy
+604
+Design Compressed String Iterator
+36.3%	Easy
+949
+Largest Time for Given Digits	35.6%	Easy
+14
+Longest Common Prefix	34.7%	Easy
+914
+X of a Kind in a Deck of Cards	34.0%	Easy
+28
+Implement strStr()	33.7%	Easy
+7
+Reverse Integer	25.6%	Easy
+665
+Non-decreasing Array	19.4%	Easy
+950
+Reveal Cards In Increasing Order	73.3%	Medium
+890
+Find and Replace Pattern	72.7%	Medium
+1188
+Design Bounded Blocking Queue
+68.1%	Medium
+1277
+Count Square Submatrices with All Ones	67.9%	Medium
+723
+Candy Crush
+66.9%	Medium
+951
+Flip Equivalent Binary Trees	65.5%	Medium
+1123
+Lowest Common Ancestor of Deepest Leaves	65.4%	Medium
+986
+Interval List Intersections	65.2%	Medium
+1110
+Delete Nodes And Return Forest	65.0%	Medium
+889
+Construct Binary Tree from Preorder and Postorder Traversal	64.3%	Medium
+1219
+Path with Maximum Gold	63.3%	Medium
+362
+Design Hit Counter
+62.0%	Medium
+1087
+Brace Expansion
+61.7%	Medium
+94
+Binary Tree Inorder Traversal	60.7%	Medium
+931
+Minimum Falling Path Sum	60.7%	Medium
+46
+Permutations	60.1%	Medium
+22
+Generate Parentheses	59.7%	Medium
+647
+Palindromic Substrings	59.1%	Medium
+946
+Validate Stack Sequences	58.7%	Medium
+238
+Product of Array Except Self	58.5%	Medium
+1267
+Count Servers that Communicate	58.4%	Medium
+1057
+Campus Bikes
+58.2%	Medium
+609
+Find Duplicate File in System	57.9%	Medium
+1143
+Longest Common Subsequence	57.8%	Medium
+369
+Plus One Linked List
+57.6%	Medium
+1105
+Filling Bookcase Shelves	57.3%	Medium
+1055
+Shortest Way to Form String
+56.9%	Medium
+547
+Friend Circles	56.7%	Medium
+1209
+Remove All Adjacent Duplicates in String II	56.7%	Medium
+1011
+Capacity To Ship Packages Within D Days	56.5%	Medium
+817
+Linked List Components	56.4%	Medium
+835
+Image Overlap	56.1%	Medium
+1031
+Maximum Sum of Two Non-Overlapping Subarrays	56.0%	Medium
+947
+Most Stones Removed with Same Row or Column	55.0%	Medium
+1060
+Missing Element in Sorted Array
+54.5%	Medium
+776
+Split BST
+54.0%	Medium
+769
+Max Chunks To Make Sorted	53.7%	Medium
+12
+Integer to Roman	53.6%	Medium
+173
+Binary Search Tree Iterator	53.1%	Medium
+39
+Combination Sum	53.1%	Medium
+1048
+Longest String Chain	52.9%	Medium
+49
+Group Anagrams	52.5%	Medium
+287
+Find the Duplicate Number	52.5%	Medium
+215
+Kth Largest Element in an Array	52.3%	Medium
+286
+Walls and Gates
+52.2%	Medium
+328
+Odd Even Linked List	52.0%	Medium
+77
+Combinations	52.0%	Medium
+939
+Minimum Area Rectangle	52.0%	Medium
+981
+Time Based Key-Value Store	51.8%	Medium
+846
+Hand of Straights	51.6%	Medium
+289
+Game of Life	51.1%	Medium
+958
+Check Completeness of a Binary Tree	51.1%	Medium
+64
+Minimum Path Sum	50.8%	Medium
+636
+Exclusive Time of Functions	50.6%	Medium
+320
+Generalized Abbreviation
+50.6%	Medium
+1145
+Binary Tree Coloring Game	50.5%	Medium
+490
+The Maze
+50.1%	Medium
+729
+My Calendar I	50.1%	Medium
+1007
+Minimum Domino Rotations For Equal Row	50.1%	Medium
+399
+Evaluate Division	49.9%	Medium
+337
+House Robber III	49.7%	Medium
+96
+Unique Binary Search Trees	49.6%	Medium
+1155
+Number of Dice Rolls With Target Sum	49.6%	Medium
+875
+Koko Eating Bananas	49.4%	Medium
+833
+Find And Replace in String	49.1%	Medium
+692
+Top K Frequent Words	49.1%	Medium
+752
+Open the Lock	49.1%	Medium
+11
+Container With Most Water	48.8%	Medium
+430
+Flatten a Multilevel Doubly Linked List	48.8%	Medium
+652
+Find Duplicate Subtrees	48.6%	Medium
+137
+Single Number II	48.4%	Medium
+394
+Decode String	48.0%	Medium
+360
+Sort Transformed Array
+48.0%	Medium
+731
+My Calendar II	47.6%	Medium
+802
+Find Eventual Safe States	47.0%	Medium
+498
+Diagonal Traverse	46.7%	Medium
+36
+Valid Sudoku	46.6%	Medium
+792
+Number of Matching Subsequences	46.4%	Medium
+247
+Strobogrammatic Number II
+46.4%	Medium
+809
+Expressive Words	46.4%	Medium
+767
+Reorganize String	46.3%	Medium
+325
+Maximum Size Subarray Sum Equals k
+46.2%	Medium
+298
+Binary Tree Longest Consecutive Sequence
+46.0%	Medium
+785
+Is Graph Bipartite?	45.8%	Medium
+16
+3Sum Closest	45.7%	Medium
+105
+Construct Binary Tree from Preorder and Inorder Traversal	45.6%	Medium
+309
+Best Time to Buy and Sell Stock with Cooldown	45.5%	Medium
+40
+Combination Sum II	45.5%	Medium
+721
+Accounts Merge	45.4%	Medium
+424
+Longest Repeating Character Replacement	45.4%	Medium
+380
+Insert Delete GetRandom O(1)	45.3%	Medium
+562
+Longest Line of Consecutive One in Matrix
+45.3%	Medium
+743
+Network Delay Time	45.2%	Medium
+361
+Bomb Enemy
+45.1%	Medium
+737
+Sentence Similarity II
+45.0%	Medium
+17
+Letter Combinations of a Phone Number	44.8%	Medium
+253
+Meeting Rooms II
+44.7%	Medium
+200
+Number of Islands	44.7%	Medium
+1292
+Maximum Side Length of a Square with Sum Less than or Equal to Threshold	44.7%	Medium
+75
+Sort Colors	44.6%	Medium
+153
+Find Minimum in Rotated Sorted Array	44.2%	Medium
+113
+Path Sum II	44.2%	Medium
+681
+Next Closest Time
+43.9%	Medium
+208
+Implement Trie (Prefix Tree)	43.7%	Medium
+560
+Subarray Sum Equals K	43.5%	Medium
+528
+Random Pick with Weight	43.4%	Medium
+284
+Peeking Iterator	43.3%	Medium
+659
+Split Array into Consecutive Subsequences	42.7%	Medium
+162
+Find Peak Element	42.5%	Medium
+236
+Lowest Common Ancestor of a Binary Tree	42.4%	Medium
+416
+Partition Equal Subset Sum	42.3%	Medium
+300
+Longest Increasing Subsequence	41.9%	Medium
+853
+Car Fleet	41.8%	Medium
+593
+Valid Square	41.7%	Medium
+855
+Exam Room	41.1%	Medium
+207
+Course Schedule	40.8%	Medium
+222
+Count Complete Tree Nodes	40.7%	Medium
+438
+Find All Anagrams in a String	40.3%	Medium
+567
+Permutation in String	40.1%	Medium
+658
+Find K Closest Elements	39.6%	Medium
+662
+Maximum Width of Binary Tree	39.6%	Medium
+417
+Pacific Atlantic Water Flow	39.4%	Medium
+139
+Word Break	38.2%	Medium
+228
+Summary Ranges	38.1%	Medium
+210
+Course Schedule II	38.0%	Medium
+56
+Merge Intervals	37.9%	Medium
+801
+Minimum Swaps To Make Sequences Increasing	37.9%	Medium
+209
+Minimum Size Subarray Sum	36.6%	Medium
+134
+Gas Station	36.5%	Medium
+304
+Range Sum Query 2D - Immutable	36.1%	Medium
+845
+Longest Mountain in Array	35.8%	Medium
+1146
+Snapshot Array	35.8%	Medium
+227
+Basic Calculator II	35.7%	Medium
+373
+Find K Pairs with Smallest Sums	35.4%	Medium
+221
+Maximal Square	35.3%	Medium
+267
+Palindrome Permutation II
+35.3%	Medium
+274
+H-Index	35.2%	Medium
+34
+Find First and Last Position of Element in Sorted Array	35.0%	Medium
+777
+Swap Adjacent in LR String	34.6%	Medium
+150
+Evaluate Reverse Polish Notation	34.6%	Medium
+332
+Reconstruct Itinerary	33.9%	Medium
+63
+Unique Paths II	33.9%	Medium
+79
+Word Search	33.6%	Medium
+33
+Search in Rotated Sorted Array	33.6%	Medium
+837
+New 21 Game	33.6%	Medium
+322
+Coin Change	33.5%	Medium
+55
+Jump Game	33.2%	Medium
+722
+Remove Comments	33.1%	Medium
+1197
+Minimum Knight Moves
+33.1%	Medium
+2
+Add Two Numbers	32.8%	Medium
+54
+Spiral Matrix	32.7%	Medium
+353
+Design Snake Game
+32.7%	Medium
+43
+Multiply Strings	32.6%	Medium
+18
+4Sum	32.5%	Medium
+307
+Range Sum Query - Mutable	32.1%	Medium
+31
+Next Permutation	31.8%	Medium
+310
+Minimum Height Trees	31.4%	Medium
+708
+Insert into a Sorted Circular Linked List
+31.0%	Medium
+152
+Maximum Product Subarray	30.8%	Medium
+271
+Encode and Decode Strings
+30.0%	Medium
+146
+LRU Cache	29.8%	Medium
+3
+Longest Substring Without Repeating Characters	29.6%	Medium
+50
+Pow(x, n)	29.1%	Medium
+5
+Longest Palindromic Substring	28.7%	Medium
+127
+Word Ladder	27.5%	Medium
+98
+Validate Binary Search Tree	27.1%	Medium
+165
+Compare Version Numbers	25.8%	Medium
+15
+3Sum	25.7%	Medium
+130
+Surrounded Regions	25.3%	Medium
+163
+Missing Ranges
+23.9%	Medium
+91
+Decode Ways	23.6%	Medium
+444
+Sequence Reconstruction
+21.4%	Medium
+288
+Unique Word Abbreviation
+21.2%	Medium
+166
+Fraction to Recurring Decimal	20.7%	Medium
+8
+String to Integer (atoi)	15.0%	Medium
+1284
+Minimum Number of Flips to Convert Binary Matrix to Zero Matrix	69.7%	Hard
+489
+Robot Room Cleaner
+67.6%	Hard
+1096
+Brace Expansion II	61.5%	Hard
+1136
+Parallel Courses
+60.5%	Hard
+1074
+Number of Submatrices That Sum to Target	60.4%	Hard
+895
+Maximum Frequency Stack	59.5%	Hard
+1168
+Optimize Water Distribution in a Village
+59.4%	Hard
+1320
+Minimum Distance to Type a Word Using Two Fingers	55.4%	Hard
+145
+Binary Tree Postorder Traversal	52.3%	Hard
+1231
+Divide Chocolate
+51.1%	Hard
+632
+Smallest Range Covering Elements from K Lists	50.6%	Hard
+753
+Cracking the Safe	49.4%	Hard
+1240
+Tiling a Rectangle with the Fewest Squares	48.9%	Hard
+726
+Number of Atoms	46.9%	Hard
+42
+Trapping Rain Water	46.7%	Hard
+1032
+Stream of Characters	46.2%	Hard
+1203
+Sort Items by Groups Respecting Dependencies	45.6%	Hard
+465
+Optimal Account Balancing
+45.4%	Hard
+843
+Guess the Word	45.4%	Hard
+774
+Minimize Max Distance to Gas Station
+45.2%	Hard
+297
+Serialize and Deserialize Binary Tree	45.0%	Hard
+679
+24 Game	44.9%	Hard
+128
+Longest Consecutive Sequence	43.8%	Hard
+410
+Split Array Largest Sum	43.6%	Hard
+340
+Longest Substring with At Most K Distinct Characters
+42.6%	Hard
+642
+Design Search Autocomplete System
+42.4%	Hard
+329
+Longest Increasing Path in a Matrix	42.1%	Hard
+815
+Bus Routes	41.7%	Hard
+72
+Edit Distance	41.2%	Hard
+295
+Find Median from Data Stream	41.1%	Hard
+1293
+Shortest Path in a Grid with Obstacles Elimination	41.1%	Hard
+772
+Basic Calculator III
+40.8%	Hard
+239
+Sliding Window Maximum	40.7%	Hard
+315
+Count of Smaller Numbers After Self	40.6%	Hard
+727
+Minimum Window Subsequence
+40.5%	Hard
+1088
+Confusing Number II
+40.2%	Hard
+317
+Shortest Distance from All Buildings
+40.1%	Hard
+1000
+Minimum Cost to Merge Stones	38.7%	Hard
+248
+Strobogrammatic Number III
+38.6%	Hard
+23
+Merge k Sorted Lists	38.1%	Hard
+818
+Race Car	37.5%	Hard
+99
+Recover Binary Search Tree	37.3%	Hard
+115
+Distinct Subsequences	36.8%	Hard
+1157
+Online Majority Element In Subarray	36.4%	Hard
+363
+Max Sum of Rectangle No Larger Than K	36.3%	Hard
+85
+Maximal Rectangle	35.9%	Hard
+552
+Student Attendance Record II	35.2%	Hard
+480
+Sliding Window Median	35.2%	Hard
+1153
+String Transforms Into Another String
+34.9%	Hard
+354
+Russian Doll Envelopes	34.8%	Hard
+269
+Alien Dictionary
+34.0%	Hard
+84
+Largest Rectangle in Histogram	33.4%	Hard
+76
+Minimum Window Substring	33.3%	Hard
+218
+The Skyline Problem	33.3%	Hard
+336
+Palindrome Pairs	32.7%	Hard
+57
+Insert Interval	32.5%	Hard
+124
+Binary Tree Maximum Path Sum	32.3%	Hard
+460
+LFU Cache	32.3%	Hard
+212
+Word Search II	31.9%	Hard
+432
+All O`one Data Structure	31.3%	Hard
+41
+First Missing Positive	30.7%	Hard
+158
+Read N Characters Given Read4 II - Call multiple times
+30.5%	Hard
+719
+Find K-th Smallest Pair Distance	30.5%	Hard
+913
+Cat and Mouse	30.5%	Hard
+97
+Interleaving String	30.0%	Hard
+140
+Word Break II	29.7%	Hard
+45
+Jump Game II	29.7%	Hard
+174
+Dungeon Game	28.9%	Hard
+4
+Median of Two Sorted Arrays	28.3%	Hard
+10
+Regular Expression Matching	26.2%	Hard
+68
+Text Justification	25.9%	Hard
+273
+Integer to English Words	25.9%	Hard
+30
+Substring with Concatenation of All Words	24.7%	Hard
+493
+Reverse Pairs	24.3%	Hard
+862
+Shortest Subarray with Sum at Least K	23.2%	Hard
+149
+Max Points on a Line	16.6%	Hard
