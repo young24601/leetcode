@@ -142,19 +142,20 @@ rope: https://en.wikipedia.org/wiki/Rope_(data_structure)
 google specific questions sorted by difficulty:<br />
 [x] 1165 <br />
 [x] 1281 <br />
-[ ] 977 <br />
-[ ] 852 <br />
-[ ] 346 <br />
-[ ] 359 <br />
-[ ] 1051 <br />
-[ ] 1122 <br />
-[ ] 821 <br />
-[ ] 104 <br />
-[ ] 136 <br />
-[ ] 226 <br />
-[ ] 412 <br />
-[ ] 206 <br />
-[ ] 349 <br />
+[x] 977 <br />
+[x] 852 <br />
+[x] 346 <br />
+[x] 359 <br />
+[x] 1051 <br />
+[x] 344 <br />
+[x] 1122 <br />
+[x] 821 <br />
+[x] 104 <br />
+[x] 136 <br />
+[x] 226 <br />
+[x] 412 <br />
+[x] 206 <br />
+[x] 349 <br />
 [ ] 706 <br />
 [ ] 1170 <br />
 [ ] 705 <br />
